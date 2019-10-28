@@ -18,7 +18,7 @@ use HTTP::Request::Common;
 # die "Usage: $0 hostname\n" unless @ARGV;
 
 
-my $filename = 'url.txt';
+my $filename = 'list.txt';
 open(my $fh, '<:encoding(UTF-8)', $filename)
   or die "Could not open file '$filename' $!";
  
